@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* font-family: 'Righteous', cursive;
+   font-family: 'Sarala', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.header-logo-img {
+  height: 72px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.header-menu-item {
+  font-family: 'Sarala', 'sans-serif';
+  color: #FFF2E7;
+  font-size: 18px;
+}
+
+.main {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.main-container-title {
+  font-family: 'Righteous', 'cursive';
+  color: #FFF2E7;
+  font-weight: 400px;
+  font-size: 64px;
+}
+
+.main-container-subtitle {
+  font-family: 'Sarala', 'sans-serif';
+  font-weight: 400px;
+  color: #ECD6C4;
+  font-size: 24px;
+}
+
+.button {
+  width: 184px;
+  height: 60px;
+  background: #ECD6C4;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  font-family: 'Sarala', 'sans-serif';
+  color: #2F2325;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.button:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+  cursor: pointer;
+}
+
+.main-img {
+  height: 430px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.section2-title {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', 'cursive';
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF2E7;
+  margin-bottom: 16px ;
+}
+
+.section2-paragraph {
+  font-family: 'Sarala', 'sans-serif';
+  font-weight: 400;
+  font-size: 18px;
+  color: #ECD6C4;
+}
+
+.footer {
+  border-top: 0.4px solid #FFF2E7;
+  padding: 32px;
+}
+
+.footer-img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
